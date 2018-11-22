@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_ronda"
+            android:layout_width="69dp"
+            android:layout_height="match_parent"
+            android:text="Ronda" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="187dp"
+            android:layout_height="match_parent"
+            android:onClick="iniciar_hilo"
+            android:text="INICIAR" />
+
+        <TextView
+            android:id="@+id/txt_turno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Turno de jugador" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cont_1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_jugador_1"
+            android:text="Jugador 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txt_dado_1_jugador_1"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txt_dado_2_jugador_1"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/txt_estatus_jugador_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tiro 1:0\nTiro 2:0\nTiro 3:0\nTiro 4:0\nTotal:0" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cont_2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_jugador_2"
+            android:text="Jugador 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txt_dado_1_jugador_2"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txt_dado_2_jugador_2"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/txt_estatus_jugador_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tiro 1:0\nTiro 2:0\nTiro 3:0\nTiro 4:0\nTotal:0" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cont_3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_jugador_3"
+            android:text="Jugador 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txt_dado_1_jugador_3"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txt_dado_2_jugador_3"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/txt_estatus_jugador_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tiro 1:0\nTiro 2:0\nTiro 3:0\nTiro 4:0\nTotal:0" />
+    </LinearLayout>
+
+</LinearLayout>
